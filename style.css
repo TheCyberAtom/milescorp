@@ -100,7 +100,7 @@ nav .nav-menu{
     color: #000000;
     background-color: #F38321;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 5px;
     font-weight: bold;
 }
@@ -127,13 +127,19 @@ nav .nav-menu{
 
 .product-list .product{
     /* position: relative; */
+    border-radius: 10px;
+}
+
+.main-product{
+    grid-column: 1/-1;
 }
 
 .product-list .product img{
     width: 100%;
-    box-shadow: 1px 0px #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .product-list .product h5{
-    font-size: large;
+    font-size: 1.2em;
 }
