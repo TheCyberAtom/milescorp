@@ -135,6 +135,7 @@ nav .nav-menu{
 .product-list .product{
     /* position: relative; */
     border-radius: 10px;
+    background-color: #eeeeee;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
