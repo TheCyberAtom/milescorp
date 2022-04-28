@@ -120,6 +120,7 @@ nav .nav-menu{
 
 .products h1{
     font-size: 2em;
+    font-weight: bold;
     margin: 20px;
 }
 
@@ -134,12 +135,12 @@ nav .nav-menu{
 .product-list .product{
     /* position: relative; */
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .product-list .product img{
     width: 100%;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px 10px 0 0;
 }
 
 .product-list .product h5{
@@ -152,7 +153,7 @@ nav .nav-menu{
 }
 
 .main-product img{
-    max-height: 250px;
+    max-height: 200px;
 }
 
 
