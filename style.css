@@ -9,6 +9,9 @@
 :root{
     --primary-color: #F38321;
     --secondary-color: #333333;
+    --tertiary-color: #2444BB;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
 }
 
 body{
@@ -30,7 +33,7 @@ a{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 nav{
@@ -68,7 +71,7 @@ nav .nav-menu{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     padding: 20px;
     text-align: center;
@@ -76,7 +79,8 @@ nav .nav-menu{
 
 .heading h1{
     font-size: 2.5em;
-    margin: -20px 0 40px 0;
+    margin: -200px 0 30px 0;
+    text-shadow: 1px 1px var(--secondary-color);
 }
 
 .heading button{
@@ -86,6 +90,7 @@ nav .nav-menu{
     border: none;
     background-color: var(--primary-color);
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .heading button i{
@@ -94,11 +99,12 @@ nav .nav-menu{
 
 .container .social{
     font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .social i{
-    color: #000000;
-    background-color: #F38321;
+    color: var(--black-color);
+    background-color: var(--primary-color);
     padding: 10px;
     border-radius: 50%;
     margin: 5px;
@@ -113,7 +119,7 @@ nav .nav-menu{
 }
 
 .products h1{
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 20px;
 }
 
@@ -130,10 +136,6 @@ nav .nav-menu{
     border-radius: 10px;
 }
 
-.main-product{
-    grid-column: 1/-1;
-}
-
 .product-list .product img{
     width: 100%;
     border-radius: 10px;
@@ -141,7 +143,23 @@ nav .nav-menu{
 }
 
 .product-list .product h5{
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin: 10px;
 }
 
+.main-product{
+    grid-column: 1 / -1;
+}
+
+.main-product img{
+    max-height: 250px;
+}
+
+
+/* Certificate Block */
+
+
+
+
 /* About Page */
+
