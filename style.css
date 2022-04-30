@@ -262,6 +262,12 @@ nav .nav-menu{
     margin-bottom: 10px;
 } 
 
+.about-body .about-text p{
+    text-align: justify;
+    line-height: 1.25em;
+    padding: 10px;
+}
+
 .about-body .about-text h5{
     text-align: center;
     font-style: italic;
