@@ -344,3 +344,91 @@ nav .nav-menu{
     margin: 2px 1px;
     font-size: 12px;
 }
+
+
+/* Contact Us Page */
+
+.contact{
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact .left{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.left .info{
+    width: 100%;
+}
+
+.left .info p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    word-spacing: 2px;
+}
+
+.contact-info  span{
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.contact-info  strong{
+    color: var(--primary-color);
+}
+
+.contact-info  p{
+    margin-bottom: 5px;
+}
+
+.left .info img{
+    width: 20%;
+}
+
+.contact .right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right{
+    width: 100%;
+    margin: 10px;
+}
+
+.right .unit-one,
+.right .unit-two{
+    width: 75%;
+    background-color: rgba(9, 9, 9, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.right .unit-one h3,
+.right .unit-two h3{
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer{
+    height: 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
