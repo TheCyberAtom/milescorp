@@ -303,4 +303,44 @@ nav .nav-menu{
 }
 
 
+/* Product Section Page */
 
+/* LED Lighting page */
+
+.lighting{
+    width: 100%;
+}
+
+.lighting h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.lighting .item-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item-list .item{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+}
+
+.item-list .item img{
+    width: 100%;
+    border-radius: 5px;
+}
+.item-list .item .name{
+    font-weight: bold;
+}
+.item-list .item p{
+    text-align: center;
+    margin: 2px 1px;
+    font-size: 12px;
+}
