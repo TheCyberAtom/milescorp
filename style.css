@@ -163,10 +163,20 @@ nav .nav-menu{
 
 /* Certificate Block */
 
-.certificates{
+.certificate-block{
     background-color: var(--secondary-color);
     width: 100%;
     height: 200px;
+}
+
+.certificate-block .quote{
+    text-align: center;
+    color: var(--white-color);
+    font-weight: lighter;
+    padding: 25px 10px 5px 10px;
+}
+
+.certificates{
     display: flex;
     align-items: center;
     justify-content: center;
