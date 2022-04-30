@@ -484,7 +484,7 @@ footer{
       padding-top: 2%;
       display: flex;
       width: 100vw;
-      min-height: 100vh;
+      min-height: 90vh;
       background-color: var(--black-color);
       z-index: 99;
       flex-direction: column;
