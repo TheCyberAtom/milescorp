@@ -77,9 +77,19 @@ a{
   .main_nav li{
     display: inline;
     color: #ffffff;
+    display: flex;
+    align-items: center;
   }
+  .main_nav li:hover{
+    background-color: #111111;
+  }
+
   .main_nav li a{
     color: #ffffff;
+  }
+
+  .main_nav li a:hover{
+    color: #F38321;
   }
 
   .navbar_toggle{
@@ -113,7 +123,7 @@ a{
     text-shadow: 1px 1px var(--secondary-color);
 }
 
-.heading button{
+.heading a{
     font-size: 1.2em;
     padding: 10px 20px;
     border-radius: 50px;
@@ -124,12 +134,13 @@ a{
     box-shadow: rgba(255, 255, 255, 0.25) 0px 48px 100px 0px;
 }
 
-.heading button:hover{
+.heading a:hover{
     background-color: var(--black-color);
     color: var(--primary-color);
+    box-shadow: rgba(255, 255, 255, 0.075) 1px 10px 10px 1px;
 }
 
-.heading button i{
+.heading a i{
     margin-left: 5px;
 }
 
@@ -150,6 +161,7 @@ a{
 .container .social i:hover{
     background-color: var(--black-color);
     color: var(--primary-color);
+    box-shadow: rgba(255, 255, 255, 0.075) 1px 10px 10px 1px;
 }
 
 /* Product Page */
@@ -157,6 +169,7 @@ a{
 .products{
     width: 100%;
     text-align: center;
+    padding: 20px;
 }
 
 .products h1{
@@ -166,12 +179,11 @@ a{
 }
 
 .products .product-list{
-    width: 98%;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
-    margin: 10px;
 }
 
 .product-list .product{
@@ -354,6 +366,7 @@ a{
 
 .lighting, .wires, .fans, .gysers, .home_appliances, .winter_appliances, .iron{
     width: 100%;
+    padding: 20px;
 }
 
 .lighting h1,
@@ -529,6 +542,10 @@ footer{
 
     .main-product img{
         min-height: 82%;
+    }
+
+    .certificate img{
+        width: 60%;
     }
 
     .certificate-block .quote h2{
