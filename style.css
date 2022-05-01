@@ -233,7 +233,7 @@ a{
 
 .about{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .about .about-heading{
