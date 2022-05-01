@@ -619,6 +619,10 @@ footer{
         grid-template-columns: auto auto auto auto;
     }
 
+    .item-list .item .name{
+        font-size: 1.1em;
+    }
+
     .contact{
         flex-direction: row;
     }
@@ -657,6 +661,11 @@ footer{
     .moto h1{
         font-size: 2em;
     }
+
+    .item-list .item .name{
+        font-size: 0.9em;
+    }
+
 
 }
 
