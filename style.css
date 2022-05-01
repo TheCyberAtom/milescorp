@@ -156,6 +156,7 @@ a{
 }
 
 .products .product-list{
+    width: 98%;
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
@@ -494,6 +495,29 @@ footer{
         height: 82%;
         border-radius: 10px 10px 0 0;
     }
+
+    .main-product img{
+        max-height: 250px;
+    }
+
+
+    .certificate-block{
+        height: 275px;
+    }
+
+    .certificates .certificate{
+        width: 90%;
+    }
+
+    .about-body .about-img img{
+        width: 50%;
+        margin: 20px;
+    }
+
+    .moto h1{
+        font-size: 2em;
+    }
+
 }
 
 /* Mobile Screen */
