@@ -125,6 +125,8 @@ a{
 
 .heading a{
     font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
@@ -191,6 +193,11 @@ a{
     border-radius: 10px;
     background-color: #eeeeee;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-list .product:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 .product-list .product img{
@@ -447,9 +454,16 @@ a{
     word-spacing: 2px;
 }
 
-.contact-info  span{
+.contact-info a{
     font-style: italic;
     margin-left: 5px;
+    color: var(--white-color);
+    word-spacing: 2px;
+    text-shadow: 0.5px 0.5px var(--tertiary-color);
+}
+
+.contact-info a:hover{
+    color: var(--primary-color);
 }
 
 .contact-info  strong{
@@ -488,6 +502,16 @@ a{
 .right .unit-one h3,
 .right .unit-two h3{
     margin-bottom: 10px;
+}
+
+.right .unit-one a,
+.right .unit-two a{
+    color: var(--white-color);
+}
+
+.right .unit-one a:hover,
+.right .unit-two a:hover{
+    color: var(--primary-color);
 }
 
 /* Footer */
@@ -692,3 +716,31 @@ footer{
     }
     
   } 
+
+
+  /* Scroll to top button */
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #myBtn i{
+      font-size: 30px;
+  }
+  
+  #myBtn:hover {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+  }
