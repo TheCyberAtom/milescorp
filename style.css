@@ -333,20 +333,30 @@ a{
 
 /* Product Section Page */
 
-/* LED Lighting page */
-
-.lighting{
+.lighting, .wires, .fans, .gysers, .home_appliances, .winter_appliances, .iron{
     width: 100%;
 }
 
-.lighting h1{
+.lighting h1,
+.wires h1,
+.fans h1,
+.gysers h1,
+.home_appliances h1,
+.winter_appliances h1,
+.iron h1{
     font-size: 2em;
     font-weight: bold;
     margin: 20px;
     text-align: center;
 }
 
-.lighting .item-list{
+.lighting .item-list,
+.wires .item-list,
+.fans .item-list,
+.gysers .item-list,
+.home_appliances .item-list,
+.winter_appliances .item-list,
+.iron .item-list{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
