@@ -399,6 +399,7 @@ a{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
 }
 
 .item-list .item{
@@ -744,6 +745,12 @@ footer{
       width: 100%;
       justify-content: space-between;
       margin-right: 2%;
+    }
+
+
+    .lighting, .wires, .fans, .gysers, .home_appliances, .winter_appliances, .iron{
+        width: 100%;
+        padding: 10px;
     }
     
   } 
