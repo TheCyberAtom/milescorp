@@ -183,7 +183,7 @@ a{
 .products .product-list{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
     padding: 10px;
 }
@@ -398,11 +398,11 @@ a{
 .iron .item-list{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .item-list .item{
-    width: 90%;
+    width: 95%;
     margin: 10px;
     padding: 10px;
     border: 1px solid var(--black-color);
@@ -418,8 +418,21 @@ a{
 }
 .item-list .item p{
     text-align: center;
-    margin: 2px 1px;
-    font-size: 12px;
+    margin: 5px 1px;
+    font-size: 0.75em;
+}
+
+.item-list .item p:last-child{
+    list-style-type: circle;
+}
+
+.item-list .item p span{
+    text-transform: lowercase;
+    font-size: 0.9em;
+}
+
+.item-list .item p span:last-child{
+    font-size: 0.8em;
 }
 
 
@@ -546,7 +559,7 @@ footer{
 
     .products .product-list{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
     .product-list .product img{
@@ -616,11 +629,20 @@ footer{
     .iron .item-list{
         width: 100%;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
     .item-list .item .name{
         font-size: 1.1em;
+    }
+
+    .item-list .item p span{
+        text-transform: lowercase;
+        font-size: 1.25em;
+    }
+    
+    .item-list .item p span:last-child{
+        font-size: 1em;
     }
 
     .contact{
@@ -640,7 +662,7 @@ footer{
     
     .products .product-list{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .product-list .product img{
@@ -663,7 +685,7 @@ footer{
     }
 
     .item-list .item .name{
-        font-size: 0.9em;
+        font-size: em;
     }
 
 
